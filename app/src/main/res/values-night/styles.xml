@@ -1,8 +1,4 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-
-    <color name="colorPrimary">@color/material_blue_500</color>
-    <color name="colorPrimaryDark">@color/material_blue_700</color>
-    <color name="colorAccent">@color/material_blue_accent_200</color>
     <style name="AppTheme" parent="AppBaseTheme"/>
 
     <!-- Base application theme. -->
@@ -14,6 +10,7 @@
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:textColorSecondary">@android:color/white</item>
 
+        <!--for v21-->
         <item name="android:navigationBarColor" tools:targetApi="LOLLIPOP">?colorPrimary</item>
         <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="LOLLIPOP">true</item>
         <item name="android:statusBarColor" tools:targetApi="LOLLIPOP">@android:color/transparent</item>
