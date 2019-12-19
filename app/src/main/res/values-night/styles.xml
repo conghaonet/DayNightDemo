@@ -1,4 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#2D3035</color>
+    <color name="colorPrimaryDark">#26282C</color>
+    <color name="colorAccent">#FC0404</color>
+    <color name="textCursorDrawable">@color/material_green_accent_700</color>
+    <color name="colorControlActivated">@color/material_green_accent_700</color>
+
     <style name="AppTheme" parent="AppBaseTheme"/>
 
     <!-- Base application theme. -->
@@ -9,6 +15,11 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="input_background">@color/material_blue_grey_500</item>
+
+        <!--以下两行修改EditText中的光标颜色-->
+        <item name="android:textCursorDrawable">@color/textCursorDrawable</item>
+        <item name="android:colorControlActivated" tools:targetApi="LOLLIPOP">@color/colorControlActivated</item>
 
         <!--for v21-->
         <item name="android:navigationBarColor" tools:targetApi="LOLLIPOP">?colorPrimary</item>

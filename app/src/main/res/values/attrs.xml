@@ -1,0 +1,4 @@
+<resources>
+    <attr name="input_background" format="color"/>
+
+</resources>
